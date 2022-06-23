@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import static org.example.KeepHydrated.liters;
 import static org.example.NextPerfectSquare.findNextSquare;
 import static org.example.OnesAndZeros.ConvertBinaryArrayToInt;
 import static org.example.PaperChallenge.Paper.paperWork;
@@ -20,6 +21,7 @@ public class Main {
         System.out.println(stringToArray(string));
 
         System.out.println(findNextSquare(114));
+        System.out.println(liters(6.7));
 
 
 
